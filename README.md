@@ -7,7 +7,7 @@ Desenvolvido no curso multi-stack da treinaweb
 #### Clonar o repositório
 
 ```
-git clone https://github.com/treinaweb/workshop-multistack-adote-um-pet-php.git
+git clone https://github.com/rebeccaaaaaaaaaaa/adoteumpet-backend.git
 ```
 
 #### Criar e ativar ambiente virtual
