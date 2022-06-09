@@ -12,7 +12,7 @@ class PetList(APIView):
         serializer = PetSerializer(pets, many=True)
         return Response(serializer.data, status=HTTP_200_OK)
 
-    def post(self, request, fromat=None):
+    def post(self, request, format=None):
         serializer = PetSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
